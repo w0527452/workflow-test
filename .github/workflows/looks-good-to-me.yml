@@ -15,5 +15,5 @@ jobs:
           GIPHY_API_KEY: ${{ secrets.GIPHY_API_KEY }}
         with:
           trigger: '[".*looks good to me.*"]'
-          override: true
+          overide: true
           source: 'giphy'
